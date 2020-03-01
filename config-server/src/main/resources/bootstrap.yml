@@ -1,0 +1,14 @@
+spring:
+ cloud:
+    config:
+      label: master
+      server:
+        git:
+#          uri: https://github.com/Simon0910/config-server
+#          username: Simon0910
+#          password: ilPPGhcom88*
+#          searchPaths: config-files
+          uri: https://gitee.com/spring-could/config-server
+          username: 1906846616@qq.com
+          password: ilPPg.com88*
+          searchPaths: config-files
